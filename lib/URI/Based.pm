@@ -14,11 +14,11 @@ URI::Based - Define a base URI and then generate variations on it
 
 =head1 VERSION
 
-Version 1.01
+Version 1.03
 
 =cut
 
-our $VERSION = '1.01';
+our $VERSION = '1.03';
 
 =head1 SYNOPSIS
 

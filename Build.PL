@@ -8,12 +8,13 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => q{Nic Wolff <nic@angel.net>},
     dist_version_from   => 'lib/URI/Based.pm',
+    configure_requires => { 'Module::Build' => 0.40 },
     build_requires => {
         'Test::More' => 0,
-	'URI::WithBase' => 0,
     },
     requires => {
         'perl' => 5.006,
+	'URI::WithBase' => 0,
     },
     add_to_cleanup      => [ 'URI-Based-*' ],
     create_makefile_pl => 'traditional',

@@ -16,17 +16,17 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : 0,
-            "URI::WithBase" : 0
+            "Test::More" : 0
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.4"
          }
       },
       "runtime" : {
          "requires" : {
+            "URI::WithBase" : 0,
             "perl" : "5.006"
          }
       }
@@ -34,7 +34,7 @@
    "provides" : {
       "URI::Based" : {
          "file" : "lib/URI/Based.pm",
-         "version" : "1.01"
+         "version" : "1.03"
       }
    },
    "release_status" : "stable",
@@ -43,5 +43,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.01"
+   "version" : "1.03"
 }
